@@ -8,5 +8,22 @@ Args:
 Returns:
     int: return answer.
 */
-void main() {
+int func( int a, int b, int c)
+{
+   if(a<b){
+    if(a<c){
+        return a;
+    }
+   } 
+   else if (b<a){
+    if(b<c){
+        return b;
+    }
+   }
+      return c;
 }
+
+void main() {
+    print(func(1,2,4));
+}
+
