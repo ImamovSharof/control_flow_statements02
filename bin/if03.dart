@@ -15,7 +15,7 @@ int func (int a, int b, int c){
    } 
    else if (c<a){
     if(c>b){
-        return c;
+         return c;
     }
    }
        return b;
