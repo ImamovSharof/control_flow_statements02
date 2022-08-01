@@ -9,17 +9,26 @@ Returns:
     int: return answer. */
 int func (int a, int b, int c){
     if(a>b){
-    if(a<c){
+    if(b>c){
+        return b;
+    }
+   } if (a<b){
+        if(b<c){
+            return b;
+        }
+   }if (c<a){
+        if(a<b){
+            return a;
+
+    }
+
+   }if (c>a){
+    if(a>b){
         return a;
     }
-   } 
-   else if (c<a){
-    if(c>b){
-         return c;
-    }
    }
-       return b;
+       return c;
 }
 void main() {
-    print(func(7,3,9));
+    print(func(7,5,9));
 }
