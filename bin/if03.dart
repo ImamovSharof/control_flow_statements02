@@ -30,5 +30,5 @@ int func (int a, int b, int c){
        return c;
 }
 void main() {
-    print(func(7,5,9));
+    print(func(11,10,9));
 }
